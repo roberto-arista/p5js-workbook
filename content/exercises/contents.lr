@@ -1,0 +1,5 @@
+_model: group
+---
+target: /
+---
+_discoverable: no

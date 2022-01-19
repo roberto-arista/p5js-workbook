@@ -1,0 +1,13 @@
+_template: index.html
+---
+_model: index
+---
+title: Welcome!
+---
+body:
+
+Welcome to the p5.js Workbook. Here you can find a collection of exercises to improve your coding skills using [p5js](https://p5js.org), [javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), the HTML canvas, and the DOM.
+
+These exercises have been distilled and tested during a collection of short workshops (about 20 hours each one) at [IUAV Venezia](http://www.iuav.it) and [UniRSM Design](https://design.unirsm.sm). They are sorted by difficulty. Most of the participating students had no prior coding experience.
+
+Each exercise has a written assignment, a solution proposal, a list of skills you will practice, and a list of various resources. To carry out the exercises, you can start by downloading [this](static/p5js_workbook.zip) compressed folder. It is a copy of the website tree, but the exercises are to be solved, that's up to you! You will also need a text editor for code – like [Sublime Text](https://www.sublimetext.com) or [Visual Studio Code](https://code.visualstudio.com) – and an easy way to run a [local server](https://github.com/processing/p5.js/wiki/Local-server) on your machine. At this point, you are ready to start. Edit the .js files and refresh the browser to see the result of your code. Enjoy!

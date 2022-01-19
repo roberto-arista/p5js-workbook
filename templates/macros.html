@@ -1,0 +1,28 @@
+{% macro renderNav() %}
+{% set thisID = this._id %}
+<ul class='TOC'>
+    <li><a href="/">Home</a></li>
+    {% for exercise in site.query('/exercises')|sort(attribute='sort_key') %}
+        <li class="{{ 'activeTOC' if exercise._id == thisID }}">
+            <a href="{{ exercise|url }}">{{ exercise.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
+{% endmacro %}
+
+{% macro renderPagination() %}
+    {% if this.has_prev() %}
+        <a title='previous exercise' href="{{this.get_siblings().prev_page|url}}">←</a>&ensp;
+    {% endif %}
+    <a title='back home' href="/">↑</a>&ensp;
+    {% if this.has_next() %}
+        <a title='next exercise' href="{{this.get_siblings().next_page|url}}">→</a>
+    {% endif %}
+{% endmacro %}
+
+{% macro renderOG() %}
+    <meta property="og:title" content="P5JS Workbook – {{ this.title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ this.url_path }}" />
+    {% if this.ogImage %}<meta property="og:image" content="{{ this.ogImage.url_path }}" />{% endif %}
+{% endmacro %}

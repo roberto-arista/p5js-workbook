@@ -1,0 +1,131 @@
+_model: exercise
+---
+title: Random Points
+---
+sort_key: 16
+---
+jsScript: randomPoints.js
+---
+resources:
+
+#### externalLink ####
+name: High Order Functions (coding train)
+----
+url: https://youtu.be/H4awPsyugS0
+#### externalLink ####
+name: stroke()
+----
+url: https://p5js.org/reference/#/p5/stroke
+#### externalLink ####
+name: noFill()
+----
+url: https://p5js.org/reference/#/p5/noFill
+#### externalLink ####
+name: noStroke()
+----
+url: https://p5js.org/reference/#/p5/noStroke
+#### externalLink ####
+name: fill()
+----
+url: https://p5js.org/reference/#/p5/fill
+#### externalLink ####
+name: createInput()
+----
+url: https://p5js.org/reference/#/p5/createInput
+#### externalLink ####
+name: parent()
+----
+url: https://p5js.org/reference/#/p5.Element/parent
+#### externalLink ####
+name: attribute()
+----
+url: https://p5js.org/reference/#/p5.Element/attribute
+#### externalLink ####
+name: input()
+----
+url: https://p5js.org/reference/#/p5.Element/input
+#### externalLink ####
+name: createCanvas()
+----
+url: https://p5js.org/reference/#/p5/createCanvas
+#### externalLink ####
+name: createButton()
+----
+url: https://p5js.org/reference/#/p5/createButton
+#### externalLink ####
+name: mousePressed()
+----
+url: https://p5js.org/reference/#/p5.Element/mousePressed
+#### externalLink ####
+name: color()
+----
+url: https://p5js.org/reference/#/p5/color
+#### externalLink ####
+name: noLoop()
+----
+url: https://p5js.org/reference/#/p5/noLoop
+#### externalLink ####
+name: line()
+----
+url: https://p5js.org/reference/#/p5/line
+#### externalLink ####
+name: text()
+----
+url: https://p5js.org/reference/#/p5/text
+#### externalLink ####
+name: background()
+----
+url: https://p5js.org/reference/#/p5/background
+#### externalLink ####
+name: stroke()
+----
+url: https://p5js.org/reference/#/p5/stroke
+#### externalLink ####
+name: point()
+----
+url: https://p5js.org/reference/#/p5/point
+#### externalLink ####
+name: redraw()
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+#### externalLink ####
+name: .map()
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+#### externalLink ####
+name: .toFixed()
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
+#### externalLink ####
+name: parseInt()
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt
+#### externalLink ####
+name: Math.random()
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+---
+skills:
+
+#### skill ####
+name: For Loops
+#### skill ####
+name: for of
+#### skill ####
+name: Parametric Drawing
+#### skill ####
+name: DOM Controls
+#### skill ####
+name: Callbacks/events
+#### skill ####
+name: Typography
+#### skill ####
+name: Colors
+#### skill ####
+name: Basic Drawing
+#### skill ####
+name: High Order Functions
+---
+assignment: Plot a collection of random locations on the canvas using the point primitive. Calculate the means of x and y values and plot the values using a line primitive, adding a caption of the number itself. The user should be able to generate a new collection of random locations and to change the number of points using an input (type = number).
+---
+ogImage: randomPoints.png

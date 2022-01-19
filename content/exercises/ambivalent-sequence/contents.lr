@@ -1,0 +1,57 @@
+_model: exercise
+---
+title: Ambivalent Sequence
+---
+assignment: This exercise is a tribute to Julio Le Parc's "[Séquences progressives ambivalentes](http://julioleparc.org/images/sur015.jpg)". Draw a grid of black squares evenly distributed on the canvas. Superimpose a grid of circles filled with the background color. Try to animate each element harmonically using `sin()` and `cos()` functions. The two grids should rotate in opposite directions.
+---
+sort_key: 21
+---
+resources:
+
+#### externalLink ####
+name: Simple Harmonic Motion  – Nature of Code
+----
+url: https://www.youtube.com/watch?v=GvwPwIUSYqE
+#### externalLink ####
+name: frameCount
+----
+url: https://p5js.org/reference/#/p5/frameCount
+#### externalLink ####
+name: push()
+----
+url: https://p5js.org/reference/#/p5/push
+#### externalLink ####
+name: pop()
+----
+url: https://p5js.org/reference/#/p5/pop
+#### externalLink ####
+name: cos()
+----
+url: https://p5js.org/reference/#/p5/cos
+#### externalLink ####
+name: sin()
+----
+url: https://p5js.org/reference/#/p5/sin
+#### externalLink ####
+name: for loop
+----
+url: https://p5js.org/reference/#/p5/for
+---
+jsScript: ambivalentSequence.js
+---
+skills:
+
+#### skill ####
+name: For Loops
+#### skill ####
+name: Trigonometry
+#### skill ####
+name: Parametric Drawing
+#### skill ####
+name: Flexible Canvas
+#### skill ####
+name: Transformation Matrices
+#### skill ####
+name: Basic Drawing
+---
+ogImage: ambivalentSequence.png

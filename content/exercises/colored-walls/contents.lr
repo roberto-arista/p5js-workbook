@@ -1,0 +1,111 @@
+_model: exercise
+---
+title: Colored Walls
+---
+assignment: Define two colors, left and right. Draw two rectangles facing each vertical edge of the canvas and color them with the left and right colors. Draw a circle following the pointer position, filled with a color interpolated between the left and right according to the mouseX value. The spacebar should allow the user to switch between a "clean" mode and a "trail" mode.
+---
+sort_key: 8
+---
+jsScript: coloredWalls.js
+---
+skills:
+
+#### skill ####
+name: Flexible Canvas
+#### skill ####
+name: DOM Controls
+#### skill ####
+name: Keyboard Input
+#### skill ####
+name: Linear Interpolation
+#### skill ####
+name: Colors
+#### skill ####
+name: Comparison Operators
+#### skill ####
+name: Booleans
+#### skill ####
+name: Conditional Construct
+#### skill ####
+name: Basic Drawing
+---
+resources:
+
+#### externalLink ####
+name: createCanvas()
+----
+url: https://p5js.org/reference/#/p5/createCanvas
+#### externalLink ####
+name: parent()
+----
+url: https://p5js.org/reference/#/p5.Element/parent
+#### externalLink ####
+name: color()
+----
+url: https://p5js.org/reference/#/p5/color
+#### externalLink ####
+name: background()
+----
+url: https://p5js.org/reference/#/p5/background
+#### externalLink ####
+name: noStroke()
+----
+url: https://p5js.org/reference/#/p5/noStroke
+#### externalLink ####
+name: createDiv()
+----
+url: https://p5js.org/reference/#/p5/createDiv
+#### externalLink ####
+name: attribute()
+----
+url: https://p5js.org/reference/#/p5.Element/attribute
+#### externalLink ####
+name: createColorPicker()
+----
+url: https://p5js.org/reference/#/p5/createColorPicker
+#### externalLink ####
+name: createP()
+----
+url: https://p5js.org/reference/#/p5/createP
+#### externalLink ####
+name: mouseX
+----
+url: https://p5js.org/reference/#/p5/mouseX
+#### externalLink ####
+name: width
+----
+url: https://p5js.org/reference/#/p5/width
+#### externalLink ####
+name: mouseY
+----
+url: https://p5js.org/reference/#/p5/mouseY
+#### externalLink ####
+name: height
+----
+url: https://p5js.org/reference/#/p5/height
+#### externalLink ####
+name: lerpColor()
+----
+url: https://p5js.org/reference/#/p5/lerpColor
+#### externalLink ####
+name: fill()
+----
+url: https://p5js.org/reference/#/p5/fill
+#### externalLink ####
+name: ellipse()
+----
+url: https://p5js.org/reference/#/p5/ellipse
+#### externalLink ####
+name: How to toggle a boolean (stackoverflow)
+----
+url: https://stackoverflow.com/questions/11604409/how-to-toggle-a-boolean
+#### externalLink ####
+name: if...else
+----
+url: https://p5js.org/reference/#/p5/if-else
+#### externalLink ####
+name: Comparison and Logical Operators
+----
+url: https://www.w3schools.com/js/js_comparisons.asp
+---
+ogImage: coloredWalls.png

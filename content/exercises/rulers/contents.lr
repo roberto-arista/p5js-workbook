@@ -1,0 +1,59 @@
+_model: exercise
+---
+title: Rulers
+---
+assignment: Divide the canvas vertically into three zones. Each zone should be covered with a line pattern. The step between each line should be editable through a slider inserted into the DOM just below the canvas. A different label for each slider would be a nice plus.
+---
+sort_key: 10
+---
+jsScript: rulers.js
+---
+resources:
+
+#### externalLink ####
+name: createCanvas()
+----
+url: https://p5js.org/reference/#/p5/createCanvas
+#### externalLink ####
+name: parent()
+----
+url: https://p5js.org/reference/#/p5.Element/parent
+#### externalLink ####
+name: createDiv()
+----
+url: https://p5js.org/reference/#/p5/createDiv
+#### externalLink ####
+name: attribute()
+----
+url: https://p5js.org/reference/#/p5.Element/attribute
+#### externalLink ####
+name: createElement()
+----
+url: https://p5js.org/reference/#/p5/createElement
+#### externalLink ####
+name: createSlider()
+----
+url: https://p5js.org/reference/#/p5/createSlider
+#### externalLink ####
+name: background()
+----
+url: https://p5js.org/reference/#/p5/background
+#### externalLink ####
+name: line()
+----
+url: https://p5js.org/reference/#/p5/line
+---
+skills:
+
+#### skill ####
+name: For Loops
+#### skill ####
+name: Flexible Canvas
+#### skill ####
+name: DOM Controls
+#### skill ####
+name: Callbacks/events
+#### skill ####
+name: Basic Drawing
+---
+ogImage: rulers.png

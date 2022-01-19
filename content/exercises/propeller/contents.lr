@@ -1,0 +1,89 @@
+_model: exercise
+---
+title: Propeller
+---
+sort_key: 12
+---
+jsScript: propeller.js
+---
+assignment: Draw a cross centred in the canvas rotating constantly clockwise, like a propeller. The user should be able to stop and invert the rotation with two separate buttons.
+---
+skills:
+
+#### skill ####
+name: Drawing loop
+#### skill ####
+name: Basic Drawing
+#### skill ####
+name: DOM Controls
+#### skill ####
+name: Callbacks/events
+#### skill ####
+name: Parametric Drawing
+#### skill ####
+name: Transformation Matrices
+---
+resources:
+
+#### externalLink ####
+name: createCanvas()
+----
+url: https://p5js.org/reference/#/p5/createCanvas
+#### externalLink ####
+name: parent()
+----
+url: https://p5js.org/reference/#/p5.Element/parent
+#### externalLink ####
+name: createButton()
+----
+url: https://p5js.org/reference/#/p5/createButton
+#### externalLink ####
+name: attribute()
+----
+url: https://p5js.org/reference/#/p5.Element/attribute
+#### externalLink ####
+name: mousePressed()
+----
+url: https://p5js.org/reference/#/p5.Element/mousePressed
+#### externalLink ####
+name: angleMode()
+----
+url: https://p5js.org/reference/#/p5/angleMode
+#### externalLink ####
+name: background()
+----
+url: https://p5js.org/reference/#/p5/background
+#### externalLink ####
+name: translate()
+----
+url: https://p5js.org/reference/#/p5/translate
+#### externalLink ####
+name: rotate()
+----
+url: https://p5js.org/reference/#/p5/rotate
+#### externalLink ####
+name: line()
+----
+url: https://p5js.org/reference/#/p5/line
+#### externalLink ####
+name: noLoop()
+----
+url: https://p5js.org/reference/#/p5/noLoop
+#### externalLink ####
+name: html()
+----
+url: https://p5js.org/reference/#/p5/html
+#### externalLink ####
+name: loop()
+----
+url: https://p5js.org/reference/#/p5/loop
+#### externalLink ####
+name: Multiplication Assignment (*=)
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Multiplication_assignment
+#### externalLink ####
+name: How to toggle a boolean (stackoverflow)
+----
+url: https://stackoverflow.com/questions/11604409/how-to-toggle-a-boolean
+---
+ogImage: propeller.png

@@ -1,0 +1,99 @@
+_model: exercise
+---
+title: Grid
+---
+sort_key: 15
+---
+jsScript: grid.js
+---
+resources:
+
+#### externalLink ####
+name: Nested for loops (stackoverflow)
+----
+url: https://stackoverflow.com/a/36413506
+#### externalLink ####
+name: loadFont()
+----
+url: https://p5js.org/reference/#/p5/loadFont
+#### externalLink ####
+name: createCanvas()
+----
+url: https://p5js.org/reference/#/p5/createCanvas
+#### externalLink ####
+name: parent()
+----
+url: https://p5js.org/reference/#/p5/parent
+#### externalLink ####
+name: createCheckbox()
+----
+url: https://p5js.org/reference/#/p5/createCheckbox
+#### externalLink ####
+name: changed()
+----
+url: https://p5js.org/reference/#/p5/changed
+#### externalLink ####
+name: createInput()
+----
+url: https://p5js.org/reference/#/p5/createInput
+#### externalLink ####
+name: attribute()
+----
+url: https://p5js.org/reference/#/p5/attribute
+#### externalLink ####
+name: input()
+----
+url: https://p5js.org/reference/#/p5/input
+#### externalLink ####
+name: noLoop()
+----
+url: https://p5js.org/reference/#/p5/noLoop
+#### externalLink ####
+name: background()
+----
+url: https://p5js.org/reference/#/p5/background
+#### externalLink ####
+name: textFont()
+----
+url: https://p5js.org/reference/#/p5/textFont
+#### externalLink ####
+name: point()
+----
+url: https://p5js.org/reference/#/p5/point
+#### externalLink ####
+name: text()
+----
+url: https://p5js.org/reference/#/p5/text
+#### externalLink ####
+name: redraw()
+----
+url: https://p5js.org/reference/#/p5/redraw
+#### externalLink ####
+name: parseInt()
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt
+#### externalLink ####
+name: preload()
+----
+url: https://p5js.org/reference/#/p5/preload
+---
+assignment: Draw a grid made of points. The user should be able to regulate the grid step through an input control. Every few elements – arbitrary fixed amount – typeset x and y coordinates of that point. The user should be able to toggle on/off these captions with a checkbox. Try to use IBM Plex Mono from the static folder.
+---
+skills:
+
+#### skill ####
+name: For Loops
+#### skill ####
+name: Basic Drawing
+#### skill ####
+name: DOM Controls
+#### skill ####
+name: Flexible Canvas
+#### skill ####
+name: Parametric Drawing
+#### skill ####
+name: Typography
+#### skill ####
+name: Callbacks/events
+---
+ogImage: grid.png

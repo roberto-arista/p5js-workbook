@@ -1,0 +1,12 @@
+[project]
+name = p5js WorkBook v2
+output_path = build
+
+[packages]
+lektor-gulp = 0.3.2
+
+[servers.dev]
+name = dev
+enabled = yes
+default = yes
+target = rsync://robari1@richard-stockton.dreamhost.com/home/robari1/p5js-workbook-v2.robertoarista.it

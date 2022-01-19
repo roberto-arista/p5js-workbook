@@ -1,0 +1,86 @@
+_model: exercise
+---
+title: Geometric Tail
+---
+sort_key: 5
+---
+jsScript: geometricTail.js
+---
+assignment:
+
+Record the movement of the cursor on the canvas drawing a tail made of squares. The sketch should accept the following inputs:
+- a mouse click should switch between squares and circles
+- the spacebar should clean the canvas
+- a slider should control the size of the shapes
+---
+skills:
+
+#### skill ####
+name: DOM Controls
+#### skill ####
+name: Callbacks/events
+#### skill ####
+name: Mouse Input
+#### skill ####
+name: Keyboard Input
+#### skill ####
+name: Function Pointers
+#### skill ####
+name: Basic Drawing
+---
+resources:
+
+#### externalLink ####
+name: createCanvas()
+----
+url: https://p5js.org/reference/#/p5/createCanvas
+#### externalLink ####
+name: parent()
+----
+url: https://p5js.org/reference/#/p5.Element/parent
+#### externalLink ####
+name: createSlider()
+----
+url: https://p5js.org/reference/#/p5/createSlider
+#### externalLink ####
+name: changed()
+----
+url: https://p5js.org/reference/#/p5/changed
+#### externalLink ####
+name: rect()
+----
+url: https://p5js.org/reference/#/p5/rect
+#### externalLink ####
+name: rectMode()
+----
+url: https://p5js.org/reference/#/p5/rectMode
+#### externalLink ####
+name: mouseX
+----
+url: https://p5js.org/reference/#/p5/mouseX
+#### externalLink ####
+name: mouseY
+----
+url: https://p5js.org/reference/#/p5/mouseY
+#### externalLink ####
+name: mouseClicked()
+----
+url: https://p5js.org/reference/#/p5/mouseClicked
+#### externalLink ####
+name: ellipse()
+----
+url: https://p5js.org/reference/#/p5/ellipse
+#### externalLink ####
+name: keyPressed()
+----
+url: https://p5js.org/reference/#/p5/keyPressed
+#### externalLink ####
+name: background()
+----
+url: https://p5js.org/reference/#/p5/background
+#### externalLink ####
+name: createElement
+----
+url: https://p5js.org/reference/#/p5/createElement
+---
+ogImage: geometricTail.png

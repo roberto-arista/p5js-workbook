@@ -1,0 +1,71 @@
+_model: exercise
+---
+title: Frames
+---
+assignment: Draw four concentric frames. The most external frames should be filled with black, then, moving towards the center of the canvas, fill the other shapes alternately with white and black. The frames color should react to the mouse position, frame 1 and 3 (counting from outside to the inner side) should react of mouse Y position, frames 2 and 4 to the X position.
+---
+sort_key: 3
+---
+jsScript: frames.js
+---
+resources:
+
+#### externalLink ####
+name: createCanvas()
+----
+url: https://p5js.org/reference/#/p5/createCanvas
+#### externalLink ####
+name: parent()
+----
+url: https://p5js.org/reference/#/p5.Element/parent
+#### externalLink ####
+name: background()
+----
+url: https://p5js.org/reference/#/p5/background
+#### externalLink ####
+name: noStroke()
+----
+url: https://p5js.org/reference/#/p5/noStroke
+#### externalLink ####
+name: mouseX
+----
+url: https://p5js.org/reference/#/p5/mouseX
+#### externalLink ####
+name: width
+----
+url: https://p5js.org/reference/#/p5/width
+#### externalLink ####
+name: mouseY
+----
+url: https://p5js.org/reference/#/p5/mouseY
+#### externalLink ####
+name: height
+----
+url: https://p5js.org/reference/#/p5/height
+#### externalLink ####
+name: rectMode()
+----
+url: https://p5js.org/reference/#/p5/rectMode
+#### externalLink ####
+name: fill()
+----
+url: https://p5js.org/reference/#/p5/fill
+#### externalLink ####
+name: rect()
+----
+url: https://p5js.org/reference/#/p5/rect
+---
+skills:
+
+#### skill ####
+name: Parametric Drawing
+#### skill ####
+name: Flexible Canvas
+#### skill ####
+name: Mouse Input
+#### skill ####
+name: Callbacks/events
+#### skill ####
+name: Linear Interpolation
+---
+ogImage: frames.png

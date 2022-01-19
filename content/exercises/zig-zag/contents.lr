@@ -1,0 +1,59 @@
+_model: exercise
+---
+title: Zig Zag
+---
+sort_key: 11
+---
+jsScript: zigZag.js
+---
+assignment: Create a zig-zag line starting from the top left corner and horizontally traversing the canvas. The zig-zag amplitude should be controlled by a slider positioned below the canvas.
+---
+skills:
+
+#### skill ####
+name: Parametric Drawing
+#### skill ####
+name: Flexible Canvas
+#### skill ####
+name: Callbacks/events
+#### skill ####
+name: DOM Controls
+#### skill ####
+name: For Loops
+---
+resources:
+
+#### externalLink ####
+name: createCanvas()
+----
+url: https://p5js.org/reference/#/p5/createCanvas
+#### externalLink ####
+name: parent()
+----
+url: https://p5js.org/reference/#/p5.Element/parent
+#### externalLink ####
+name: createSlider()
+----
+url: https://p5js.org/reference/#/p5/createSlider
+#### externalLink ####
+name: attribute()
+----
+url: https://p5js.org/reference/#/p5.Element/attribute
+#### externalLink ####
+name: stroke()
+----
+url: https://p5js.org/reference/#/p5/stroke
+#### externalLink ####
+name: strokeWeight()
+----
+url: https://p5js.org/reference/#/p5/strokeWeight
+#### externalLink ####
+name: background()
+----
+url: https://p5js.org/reference/#/p5/background
+#### externalLink ####
+name: line()
+----
+url: https://p5js.org/reference/#/p5/line
+---
+ogImage: zigZag.png

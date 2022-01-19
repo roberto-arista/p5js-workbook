@@ -1,0 +1,85 @@
+_model: exercise
+---
+title: Webcolors
+---
+sort_key: 17
+---
+jsScript: webcolors.js
+---
+resources:
+
+#### attachmentLink ####
+name: Web Colors Table (.tsv)
+----
+file: webcolors.tsv
+#### externalLink ####
+name: Table element (css-tricks)
+----
+url: https://css-tricks.com/complete-guide-table-element/
+#### externalLink ####
+name: loadTable()
+----
+url: https://p5js.org/reference/#/p5/loadTable
+#### externalLink ####
+name: noCanvas()
+----
+url: https://p5js.org/reference/#/p5/noCanvas
+#### externalLink ####
+name: createElement()
+----
+url: https://p5js.org/reference/#/p5/createElement
+#### externalLink ####
+name: style()
+----
+url: https://p5js.org/reference/#/p5.Element/style
+#### externalLink ####
+name: attribute()
+----
+url: https://p5js.org/reference/#/p5.Element/attribute
+#### externalLink ####
+name: parent()
+----
+url: https://p5js.org/reference/#/p5.Element/parent
+#### externalLink ####
+name: html()
+----
+url: https://p5js.org/reference/#/p5.Element/html
+#### externalLink ####
+name: for...of
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
+#### externalLink ####
+name: if...else
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
+#### externalLink ####
+name: Strict inequality (!==)
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_inequality
+---
+skills:
+
+#### skill ####
+name: DOM Controls
+#### skill ####
+name: Typography
+#### skill ####
+name: Colors
+#### skill ####
+name: Table Data
+#### skill ####
+name: for of
+#### skill ####
+name: For Loops
+#### skill ####
+name: Conditional Construct
+#### skill ####
+name: Booleans
+#### skill ####
+name: Table Data
+#### skill ####
+name: Comparison Operators
+---
+assignment: Load and typeset the webcolors.tsv table as `<table>` element instead of the regular HTML canvas. Make sure to create an extra column on the left with swatches matching the `hexCode` values. Use the right semantics for table header and table body, [here](https://css-tricks.com/complete-guide-table-element/) you can find a good introduction.
+---
+ogImage: webcolors.png

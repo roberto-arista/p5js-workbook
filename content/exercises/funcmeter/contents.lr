@@ -1,0 +1,115 @@
+_model: exercise
+---
+title: FuncMeter
+---
+assignment: Design an interactive animation able to visualize the progression of three functions: sin, cosine, and noise (you can add more if you like). The animation should work like a seismometer: the x-axis represents time, the y-axis represents the function output scaled to the canvas height. The user should be able to switch between different functions with a select input and to address function scaling and curve detail with sliders. A text visual log, drawn on the canvas, would be a nice addition.
+---
+sort_key: 14
+---
+jsScript: funcMeter.js
+---
+resources:
+
+#### externalLink ####
+name: frameRate()
+----
+url: https://p5js.org/reference/#/p5/frameRate
+#### externalLink ####
+name: map()
+----
+url: https://p5js.org/reference/#/p5/map
+#### externalLink ####
+name: sin()
+----
+url: https://p5js.org/reference/#/p5/sin
+#### externalLink ####
+name: cos()
+----
+url: https://p5js.org/reference/#/p5/cos
+#### externalLink ####
+name: noise()
+----
+url: https://p5js.org/reference/#/p5/noise
+#### externalLink ####
+name: stroke()
+----
+url: https://p5js.org/reference/#/p5/stroke
+#### externalLink ####
+name: strokeWeight()
+----
+url: https://p5js.org/reference/#/p5/strokeWeight
+#### externalLink ####
+name: fill()
+----
+url: https://p5js.org/reference/#/p5/fill
+#### externalLink ####
+name: noStroke()
+----
+url: https://p5js.org/reference/#/p5/noStroke
+#### externalLink ####
+name: background()
+----
+url: https://p5js.org/reference/#/p5/background
+#### externalLink ####
+name: line()
+----
+url: https://p5js.org/reference/#/p5/line
+#### externalLink ####
+name: text()
+----
+url: https://p5js.org/reference/#/p5/text
+#### externalLink ####
+name: rect()
+----
+url: https://p5js.org/reference/#/p5/rect
+#### externalLink ####
+name: translate()
+----
+url: https://p5js.org/reference/#/p5/translate
+#### externalLink ####
+name: round()
+----
+url: https://p5js.org/reference/#/p5/round
+#### externalLink ####
+name: createDiv()
+----
+url: https://p5js.org/reference/#/p5/createDiv
+#### externalLink ####
+name: createSpan()
+----
+url: https://p5js.org/reference/#/p5/createSpan
+#### externalLink ####
+name: createSlider()
+----
+url: https://p5js.org/reference/#/p5/createSlider
+#### externalLink ####
+name: createSelect()
+----
+url: https://p5js.org/reference/#/p5/createSelect
+---
+skills:
+
+#### skill ####
+name: Parametric Drawing
+#### skill ####
+name: DOM Controls
+#### skill ####
+name: Flexible Canvas
+#### skill ####
+name: Callbacks/events
+#### skill ####
+name: Function Pointers
+#### skill ####
+name: Basic Drawing
+#### skill ####
+name: Typography
+#### skill ####
+name: For Loops
+#### skill ####
+name: Booleans
+#### skill ####
+name: Comparison Operators
+#### skill ####
+name: Conditional Construct
+---
+ogImage: funcMeter.png

@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  @font-face {
+    font-family: 'Plex Mono';
+    src: url('/static/fonts/IBMPlexMono-Italic-Latin1.woff') format('woff'),
+         url('/static/fonts/IBMPlexMono-Italic-Latin1.woff2') format('woff2');
+    font-style: italic;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Plex Mono';
+    src: url('/static/fonts/IBMPlexMono-Italic-Pi.woff') format('woff'),
+         url('/static/fonts/IBMPlexMono-Italic-Pi.woff2') format('woff2');
+    font-style: italic;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Plex Mono';
+    src: url('/static/fonts/IBMPlexMono-Regular-Latin1.woff') format('woff'),
+         url('/static/fonts/IBMPlexMono-Regular-Latin1.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Plex Mono';
+    src: url('/static/fonts/IBMPlexMono-Regular-Pi.woff2') format('woff2'),
+         url('/static/fonts/IBMPlexMono-Regular-Pi.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Plex Sans';
+    src: url('/static/fonts/IBMPlexSans-Bold-Latin1.woff') format('woff'),
+         url('/static/fonts/IBMPlexSans-Bold-Latin1.woff2') format('woff2');
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'Plex Sans';
+    src: url('/static/fonts/IBMPlexSans-Italic-Latin1.woff') format('woff'),
+         url('/static/fonts/IBMPlexSans-Italic-Latin1.woff2') format('woff2');
+    font-style: italic;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Plex Sans';
+    src: url('/static/fonts/IBMPlexSans-Regular-Latin1.woff') format('woff'),
+         url('/static/fonts/IBMPlexSans-Regular-Latin1.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  /* links */
+  a {
+      color: blue;
+      border-bottom: solid #ddd 1px;
+      -webkit-transition: border-bottom-color .2s ease-out;
+         -moz-transition: border-bottom-color .2s ease-out;
+          -ms-transition: border-bottom-color .2s ease-out;
+           -o-transition: border-bottom-color .2s ease-out;
+              transition: border-bottom-color .2s ease-out;
+  }
+
+  a:focus, a:hover {
+      border-bottom: solid blue 1px;
+  }
+
+  a:active {
+      color: black;
+  }
+
+  a:visited {
+      color: blue;
+  }
+
+  a:visited:hover {
+      border-bottom: solid blue 1px;
+  }
+
+
+  /* navigation */
+  body {
+      overflow-x: hidden;
+      -webkit-animation: bugfix infinite 1s; 
+  }
+  @-webkit-keyframes bugfix { 
+      from { padding: 0; } 
+      to { padding: 0; } 
+  }
+
+  /* a modal dialog is used for the navigation */
+  .modal {
+    transition: opacity 0.25s ease;
+  }
+
+  body.modal-active {
+    overflow-x: hidden;
+    overflow-y: visible !important;
+  }
+
+  .smartContainer { width: 100%; }
+  @screen sm { .smartContainer { width: calc(theme('screens.sm') - theme('spacing.12'));}}
+  @screen md { .smartContainer { width: calc(theme('screens.md') - theme('spacing.12')); }}
+  @screen lg { .smartContainer { width: calc(theme('screens.lg') - theme('spacing.12')); }}
+  @screen xl { .smartContainer { width: calc(theme('screens.xl') - theme('spacing.12')); }}
+
+
+  button {
+    @apply block appearance-none border border-black rounded leading-tight;
+  }
+
+  button:active {
+    @apply outline-none bg-gray-300;
+  }
+
+  button:focus {
+    @apply outline-none bg-gray-300;
+  }
+
+  select {
+    @apply block appearance-none border border-black py-3 px-4 rounded leading-tight mb-4;
+  }
+
+  select:focus {
+    @apply outline-none bg-gray-300;
+  }
+
+  label {
+    @apply inline-block uppercase font-mono text-sm mb-1 ml-4;
+  }
+
+  canvas {
+    @apply border border-black;
+  }
+
+  code {
+    @apply font-mono border border-gray-500;
+  }
+
+  aside ul li:before {
+    content: '– ';
+  }
+
+  li.activeTOC {
+    @apply ml-4;
+  }
+
+  li.activeTOC:before {
+    content: '→ ';
+  }
+
+  div.intro p {
+    @apply text-3xl mb-2 mr-8;
+  }
+
+}
+
+@layer utilities {
+  @variants hover, focus {
+    .filter-none {
+      filter: none;
+    }
+    .filter-grayscale {
+      filter: grayscale(100%);
+    }
+  }
+}

@@ -1,0 +1,103 @@
+_model: exercise
+---
+title: Glyph Cursor
+---
+sort_key: 7
+---
+jsScript: glyphCursor.js
+---
+resources:
+
+#### externalLink ####
+name: createCanvas()
+----
+url: https://p5js.org/reference/#/p5/createCanvas
+#### externalLink ####
+name: createElement()
+----
+url: https://p5js.org/reference/#/p5/createElement
+#### externalLink ####
+name: parent()
+----
+url: https://p5js.org/reference/#/p5/parent
+#### externalLink ####
+name: attribute()
+----
+url: https://p5js.org/reference/#/p5/attribute
+#### externalLink ####
+name: createDiv()
+----
+url: https://p5js.org/reference/#/p5/createDiv
+#### externalLink ####
+name: createSelect()
+----
+url: https://p5js.org/reference/#/p5/createSelect
+#### externalLink ####
+name: changed()
+----
+url: https://p5js.org/reference/#/p5/changed
+#### externalLink ####
+name: option()
+----
+url: https://p5js.org/reference/#/p5/option
+#### externalLink ####
+name: fill()
+----
+url: https://p5js.org/reference/#/p5/fill
+#### externalLink ####
+name: textSize()
+----
+url: https://p5js.org/reference/#/p5/textSize
+#### externalLink ####
+name: textAlign()
+----
+url: https://p5js.org/reference/#/p5/textAlign
+#### externalLink ####
+name: text()
+----
+url: https://p5js.org/reference/#/p5/text
+#### externalLink ####
+name: mouseClicked()
+----
+url: https://p5js.org/reference/#/p5/mouseClicked
+#### externalLink ####
+name: background()
+----
+url: https://p5js.org/reference/#/p5/background
+#### externalLink ####
+name: keyTyped()
+----
+url: https://p5js.org/reference/#/p5/keyTyped
+#### externalLink ####
+name: JS Object
+----
+url: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
+#### externalLink ####
+name: createSlider()
+----
+url: https://p5js.org/reference/#/p5/createSlider
+---
+assignment:
+
+This exercise is a variation over the [primitives cursor](/exercises/primitives-cursor/) exercise. Here you should record the cursor using glyphs from a font, starting from character 'a'. Try load an instance of [IBM Plex Mono](https://www.ibm.com/plex/), you'll find a .ttf file in the static folder. The sketch should accept the following inputs:
+- a mouse click should clean the canvas
+- the keyboard should inform the glyph drawn on the canvas
+- the user should be able to adjust vertical and horizontal text alignment through two select controllers
+- body size should be modified through a slider 
+---
+skills:
+
+#### skill ####
+name: DOM Controls
+#### skill ####
+name: Keyboard Input
+#### skill ####
+name: Mouse Input
+#### skill ####
+name: Typography
+#### skill ####
+name: Basic Drawing
+#### skill ####
+name: Callbacks/events
+---
+ogImage: glyphCursor.png

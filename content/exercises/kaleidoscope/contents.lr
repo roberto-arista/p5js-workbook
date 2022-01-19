@@ -1,0 +1,47 @@
+_model: exercise
+---
+title: Kaleidoscope
+---
+assignment:
+
+Record the cursor position on the screen with a small circle. Flip the circle on both x and y axes to get a pseudo-kaleidoscopic effect. The sketch should accept the following inputs:
+- each time the mouse is clicked, the shape should switch from circle to square and vice versa
+- pressing the spacebar should clean the background
+- pressing `s` should trigger a save dialog with a canvas snapshot
+---
+jsScript: kaleidoscope.js
+---
+sort_key: 4
+---
+resources:
+
+#### externalLink ####
+name: createCanvas()
+----
+url: https://p5js.org/reference/#/p5/createCanvas
+#### externalLink ####
+name: parent()
+----
+url: https://p5js.org/reference/#/p5.Element/parent
+#### externalLink ####
+name: stroke()
+----
+url: https://p5js.org/reference/#/p5/stroke
+#### externalLink ####
+name: ellipseMode()
+----
+url: https://p5js.org/reference/#/p5/ellipseMode
+#### externalLink ####
+name: rectMode()
+----
+url: https://p5js.org/reference/#/p5/rectMode
+#### externalLink ####
+name: background()
+----
+url: https://p5js.org/reference/#/p5/background
+#### externalLink ####
+name: save()
+----
+url: https://p5js.org/reference/#/p5/save
+---
+ogImage: kaleidoscope.png

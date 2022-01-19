@@ -1,0 +1,43 @@
+{% set captionUtils = 'font-mono text-sm ml-8 uppercase' %}
+{% from 'macros.html' import renderPagination with context %}
+
+{% extends 'layout.html' %}
+    {% block imports %}
+        <script type='text/javascript' src="{{ this.jsScript | url }}"></script>
+    {% endblock %}
+    {% block title %}{{ this.title }}{% endblock %}
+
+    {% block content %}
+
+        <div class="flex flex-row justify-between">
+            <h1 class="text-3xl font-mono my-2">{{ this.title }}</h1>
+            <h1 class="text-3xl my-2">{{ renderPagination() }}</h1>
+        </div>
+        <div class="flex flex-row">
+            <div>
+                <div id="sketch-holder"></div>
+                <div id="ctrls" class="py-4">{{ this.ctrls }}</div>
+            </div>
+            <aside class="ml-8">
+                <h4 class="{{captionUtils}}">Assignment</h4>
+                <p>{{ this.assignment }}</p>
+
+                {% if this.skills %}
+                    <h4 class="{{captionUtils}} mt-4">Skills</h4>
+                    <p>{{ this.skills.blocks|sort(attribute='name')|join(', ', attribute='name') }}</p>
+                {% endif %}
+
+                <h4 class="{{captionUtils}} mt-4">Resources</h4>
+                <p class='font-mono'><a href="{{this.jsScript | url}}" target="_blank">(↷) Exercise Solution</a></p>
+                    {% if this.resources %}
+                        {% for eachBlk in this.resources.blocks | sort(attribute='name') if eachBlk._flowblock == 'attachmentLink' %}
+                            {{ eachBlk }}
+                        {% endfor %}
+
+                        {% for eachBlk in this.resources.blocks | sort(attribute='name') if eachBlk._flowblock == 'externalLink' %}
+                            {{ eachBlk }}
+                        {% endfor %}
+                    {% endif %}
+            </aside>
+        </div>
+    {% endblock %}

@@ -1,0 +1,141 @@
+_model: exercise
+---
+title: Watch
+---
+assignment: Draw a watch! Choose an iconic watch you like and reproduce it. Or if you don't have any, just imagine a new one. Can you recognize the source of this example?
+---
+sort_key: 19
+---
+jsScript: watch.js
+---
+resources:
+
+#### externalLink ####
+name: fill()
+----
+url: https://p5js.org/reference/#/p5/fill
+#### externalLink ####
+name: noStroke()
+----
+url: https://p5js.org/reference/#/p5/noStroke
+#### externalLink ####
+name: stroke()
+----
+url: https://p5js.org/reference/#/p5/stroke
+#### externalLink ####
+name: strokeWeight()
+----
+url: https://p5js.org/reference/#/p5/strokeWeight
+#### externalLink ####
+name: noFill()
+----
+url: https://p5js.org/reference/#/p5/noFill
+#### externalLink ####
+name: ellipse()
+----
+url: https://p5js.org/reference/#/p5/ellipse
+#### externalLink ####
+name: push()
+----
+url: https://p5js.org/reference/#/p5/push
+#### externalLink ####
+name: rotate()
+----
+url: https://p5js.org/reference/#/p5/rotate
+#### externalLink ####
+name: radians()
+----
+url: https://p5js.org/reference/#/p5/radians
+#### externalLink ####
+name: line()
+----
+url: https://p5js.org/reference/#/p5/line
+#### externalLink ####
+name: pop()
+----
+url: https://p5js.org/reference/#/p5/pop
+#### externalLink ####
+name: textFont()
+----
+url: https://p5js.org/reference/#/p5/textFont
+#### externalLink ####
+name: textSize()
+----
+url: https://p5js.org/reference/#/p5/textSize
+#### externalLink ####
+name: textWidth()
+----
+url: https://p5js.org/reference/#/p5/textWidth
+#### externalLink ####
+name: rect()
+----
+url: https://p5js.org/reference/#/p5/rect
+#### externalLink ####
+name: textAlign()
+----
+url: https://p5js.org/reference/#/p5/textAlign
+#### externalLink ####
+name: text()
+----
+url: https://p5js.org/reference/#/p5/text
+#### externalLink ####
+name: day()
+----
+url: https://p5js.org/reference/#/p5/day
+#### externalLink ####
+name: hour()
+----
+url: https://p5js.org/reference/#/p5/hour
+#### externalLink ####
+name: loadFont()
+----
+url: https://p5js.org/reference/#/p5/loadFont
+#### externalLink ####
+name: createCanvas()
+----
+url: https://p5js.org/reference/#/p5/createCanvas
+#### externalLink ####
+name: parent()
+----
+url: https://p5js.org/reference/#/p5.Element/parent
+#### externalLink ####
+name: background()
+----
+url: https://p5js.org/reference/#/p5/background
+#### externalLink ####
+name: strokeCap()
+----
+url: https://p5js.org/reference/#/p5/strokeCap
+#### externalLink ####
+name: translate()
+----
+url: https://p5js.org/reference/#/p5/translate
+#### externalLink ####
+name: Date
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+---
+skills:
+
+#### skill ####
+name: Flexible Canvas
+#### skill ####
+name: Basic Drawing
+#### skill ####
+name: Typography
+#### skill ####
+name: Drawing loop
+#### skill ####
+name: Transformation Matrices
+#### skill ####
+name: For Loops
+#### skill ####
+name: Conditional Construct
+#### skill ####
+name: Booleans
+#### skill ####
+name: Colors
+#### skill ####
+name: Date and Time
+---
+ogImage: watch.png

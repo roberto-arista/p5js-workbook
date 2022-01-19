@@ -1,0 +1,43 @@
+_model: exercise
+---
+title: Primitives
+---
+sort_key: 2
+---
+assignment: Make a free composition of primitives using <code>rect()</code>, <code>ellipse()</code>, and <code>line()</code>. The composition should rearrange accordingly to the canvas size.
+---
+jsScript: primitives.js
+---
+resources:
+
+#### externalLink ####
+name: createCanvas()
+----
+url: https://p5js.org/reference/#/p5/createCanvas
+#### externalLink ####
+name: line()
+----
+url: https://p5js.org/reference/#/p5/line
+#### externalLink ####
+name: rect()
+----
+url: https://p5js.org/reference/#/p5/rect
+#### externalLink ####
+name: ellipse()
+----
+url: https://p5js.org/reference/#/p5/ellipse
+#### externalLink ####
+name: ellipseMode()
+----
+url: https://p5js.org/reference/#/p5/ellipseMode
+---
+skills:
+
+#### skill ####
+name: Drawing Order
+#### skill ####
+name: Parametric Drawing
+#### skill ####
+name: Flexible Canvas
+---
+ogImage: primitives.png

@@ -1,0 +1,81 @@
+_model: exercise
+---
+title: Colored Corners
+---
+assignment: This exercise is an extension of the Colored Walls. Instead of working with two color extremes, we are going to interpolate the pointer circle color through four colors extremes assigned to each corner of the canvas. These colors extremes should be editable through a series of color pickers inserted into the DOM just below the canvas. The `i` key should show or hide the intermediate colors drawn on the edges of the canvas. The spacebar should let the user clean the canvas from the pointer trail.
+---
+sort_key: 9
+---
+jsScript: coloredCorners.js
+---
+resources:
+
+#### externalLink ####
+name: color()
+----
+url: https://p5js.org/reference/#/p5/color
+#### externalLink ####
+name: lerpColor()
+----
+url: https://p5js.org/reference/#/p5/lerpColor
+#### externalLink ####
+name: background()
+----
+url: https://p5js.org/reference/#/p5/background
+#### externalLink ####
+name: createColorPicker()
+----
+url: https://p5js.org/reference/#/p5/createColorPicker
+#### externalLink ####
+name: createDiv()
+----
+url: https://p5js.org/reference/#/p5/createDiv
+#### externalLink ####
+name: createP()
+----
+url: https://p5js.org/reference/#/p5/createP
+#### externalLink ####
+name: mouseX
+----
+url: https://p5js.org/reference/#/p5/mouseX
+#### externalLink ####
+name: width
+----
+url: https://p5js.org/reference/#/p5/width
+#### externalLink ####
+name: mouseY
+----
+url: https://p5js.org/reference/#/p5/mouseY
+#### externalLink ####
+name: height
+----
+url: https://p5js.org/reference/#/p5/height
+#### externalLink ####
+name: fill()
+----
+url: https://p5js.org/reference/#/p5/fill
+#### externalLink ####
+name: ellipse()
+----
+url: https://p5js.org/reference/#/p5/ellipse
+#### externalLink ####
+name: flexbox
+----
+url: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+---
+skills:
+
+#### skill ####
+name: Colors
+#### skill ####
+name: Flexible Canvas
+#### skill ####
+name: Mouse Input
+#### skill ####
+name: Basic Drawing
+#### skill ####
+name: Keyboard Input
+#### skill ####
+name: Linear Interpolation
+---
+ogImage: coloredCorners.png

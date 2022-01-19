@@ -1,0 +1,104 @@
+_model: exercise
+---
+title: Orbits
+---
+assignment: Draw a grid of dots. Use a trigonometric function to animate the grid as a flag (using [harmonic motion](https://youtu.be/GvwPwIUSYqE)). Each dot should have in its orbit three smaller dots rotating around the "star" at different speeds. You can achieve this by combining translation with –again– harmonic motion. Clever use of push() and pop() is the key!
+---
+jsScript: orbits.js
+---
+sort_key: 18
+---
+resources:
+
+#### externalLink ####
+name: Simple Harmonic Motion (coding train)
+----
+url: https://youtu.be/GvwPwIUSYqE
+
+#### externalLink ####
+name: cos()
+----
+url: https://p5js.org/reference/#/p5/cos
+
+#### externalLink ####
+name: sin()
+----
+url: https://p5js.org/reference/#/p5/sin
+
+#### externalLink ####
+name: ellipse()
+----
+url: https://p5js.org/reference/#/p5/ellipse
+
+#### externalLink ####
+name: createCanvas()
+----
+url: https://p5js.org/reference/#/p5/createCanvas
+
+#### externalLink ####
+name: parent()
+----
+url: https://p5js.org/reference/#/p5/parent
+
+#### externalLink ####
+name: angleMode()
+----
+url: https://p5js.org/reference/#/p5/angleMode
+
+#### externalLink ####
+name: translate()
+----
+url: https://p5js.org/reference/#/p5/translate
+
+#### externalLink ####
+name: push()
+----
+url: https://p5js.org/reference/#/p5/push
+
+#### externalLink ####
+name: stroke()
+----
+url: https://p5js.org/reference/#/p5/stroke
+
+#### externalLink ####
+name: strokeWeight()
+----
+url: https://p5js.org/reference/#/p5/strokeWeight
+
+#### externalLink ####
+name: noFill()
+----
+url: https://p5js.org/reference/#/p5/noFill
+
+#### externalLink ####
+name: noStroke()
+----
+url: https://p5js.org/reference/#/p5/noStroke
+
+#### externalLink ####
+name: fill()
+----
+url: https://p5js.org/reference/#/p5/fill
+
+#### externalLink ####
+name: DEGREES
+----
+url: https://p5js.org/reference/#/p5/DEGREES
+
+---
+ogImage: orbits.png
+---
+skills:
+
+#### skill ####
+name: Drawing Order
+#### skill ####
+name: Basic Drawing
+#### skill ####
+name: For Loops
+#### skill ####
+name: Trigonometry
+#### skill ####
+name: Colors
+#### skill ####
+name: Transformation Matrices

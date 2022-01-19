@@ -1,0 +1,73 @@
+_model: exercise
+---
+title: Circle or square?
+---
+sort_key: 6
+---
+jsScript: circleOrSquare.js
+---
+assignment: Draw a square centred in the canvas. A button should allow the user to switch the square with a circle (and back!). Try to update the canvas only when needed, a still shape does not need to be drawn many times per second.
+---
+skills:
+
+#### skill ####
+name: Parametric Drawing
+#### skill ####
+name: Flexible Canvas
+#### skill ####
+name: DOM Controls
+#### skill ####
+name: Callbacks/events
+#### skill ####
+name: Basic Drawing
+#### skill ####
+name: Drawing loop
+---
+resources:
+
+#### externalLink ####
+name: createCanvas()
+----
+url: https://p5js.org/reference/#/createCanvas
+#### externalLink ####
+name: parent()
+----
+url: https://p5js.org/reference/#/p5.Element/parent
+#### externalLink ####
+name: createButton()
+----
+url: https://p5js.org/reference/#/createButton
+#### externalLink ####
+name: attribute()
+----
+url: https://p5js.org/reference/#/p5.Element/attribute
+#### externalLink ####
+name: mousePressed()
+----
+url: https://p5js.org/reference/#/mousePressed
+#### externalLink ####
+name: background()
+----
+url: https://p5js.org/reference/#/background
+#### externalLink ####
+name: fill()
+----
+url: https://p5js.org/reference/#/fill
+#### externalLink ####
+name: noStroke()
+----
+url: https://p5js.org/reference/#/noStroke
+#### externalLink ####
+name: rectMode()
+----
+url: https://p5js.org/reference/#/rectMode
+#### externalLink ####
+name: noLoop()
+----
+url: https://p5js.org/reference/#/noLoop
+#### externalLink ####
+name: redraw()
+----
+url: https://p5js.org/reference/#/redraw
+---
+ogImage: circleOrSquare.png

@@ -1,0 +1,10 @@
+{% from 'macros.html' import renderNav with context %}
+{% extends 'layout.html' %}
+
+{% block title %}
+    {{ this.title }}
+{% endblock %}
+
+{% block content %}
+    <div class="intro mt-8">{{ this.body }}</div>
+{% endblock %}

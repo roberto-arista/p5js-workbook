@@ -1,0 +1,160 @@
+_model: exercise
+---
+title: Boxplot
+---
+assignment:
+
+Create two [boxplot](https://en.wikipedia.org/wiki/Box_plot) graphs. Both graphs should render data from the same column of the typevariables.tsv table. Consider only numerical data as xHeight or weight. Special values as mean, median, low quartile, high quartile, and the whiskers should be typeset explicitly. Add to the DOM three [select](https://p5js.org/reference/#/p5/createSelect) – aka dropdown menus –  controllers. The first controller (labeled VARIABLE) governs which typographic variable the boxplots render. The other two controllers should filter the data according to the style name (like Regular and Bold).
+Make sure that both graphs are equalized on the same scale, meaning that a value like 300 should occupy the same position on both graphs.
+---
+jsScript: boxplot.js
+---
+resources:
+
+#### externalLink ####
+name: Math.min()
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/min
+#### externalLink ####
+name: Math.max()
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max
+#### externalLink ####
+name: concat arrays
+----
+url: https://www.w3schools.com/jsref/jsref_concat_array.asp
+#### externalLink ####
+name: p5js colors
+----
+url: https://p5js.org/reference/#/p5/color
+#### externalLink ####
+name: reduce array
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+#### externalLink ####
+name: filter array
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+#### externalLink ####
+name: Math.floor()
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
+#### externalLink ####
+name: Math.ceil()
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil
+#### externalLink ####
+name: redraw()
+----
+url: https://p5js.org/reference/#/p5/redraw
+#### externalLink ####
+name: noLoop()
+----
+url: https://p5js.org/reference/#/p5/noLoop
+#### externalLink ####
+name: arrow functions (coding train)
+----
+url: https://youtu.be/mrYMzpbFz18
+#### externalLink ####
+name: loadTable()
+----
+url: https://p5js.org/reference/#/p5/loadTable
+#### externalLink ####
+name: Different Kinds of Loops
+----
+url: https://www.w3schools.com/js/js_loop_for.asp
+#### externalLink ####
+name: createSelect()
+----
+url: https://p5js.org/reference/#/p5/createSelect
+#### externalLink ####
+name: createDiv()
+----
+url: https://p5js.org/reference/#/p5/createDiv
+#### externalLink ####
+name: push item into array
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+#### externalLink ####
+name: convert string to number
+----
+url: https://stackoverflow.com/a/12862627
+#### externalLink ####
+name: fill()
+----
+url: https://p5js.org/reference/#/p5/fill
+#### externalLink ####
+name: stroke()
+----
+url: https://p5js.org/reference/#/p5/stroke
+#### externalLink ####
+name: trim decimals from float
+----
+url: https://www.w3schools.com/jsref/jsref_tofixed.asp
+#### externalLink ####
+name: unpack sequence into variables
+----
+url: https://stackoverflow.com/questions/2100731/is-there-a-javascript-equivalent-to-unpack-sequences-like-in-python
+#### externalLink ####
+name: check inclusion into array
+----
+url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+#### externalLink ####
+name: text()
+----
+url: https://p5js.org/reference/#/p5/text
+#### externalLink ####
+name: line()
+----
+url: https://p5js.org/reference/#/p5/line
+#### externalLink ####
+name: ellipse()
+----
+url: https://p5js.org/reference/#/p5/ellipse
+#### externalLink ####
+name: linear interpolation
+----
+url: https://p5js.org/reference/#/p5.Vector/lerp
+#### attachmentLink ####
+name: TypeMetrics Table
+----
+file: typemetrics.tsv
+---
+sort_key: 20
+---
+skills:
+
+#### skill ####
+name: Parametric Drawing
+#### skill ####
+name: Flexible Canvas
+#### skill ####
+name: DOM Controls
+#### skill ####
+name: Callbacks/events
+#### skill ####
+name: Basic Drawing
+#### skill ####
+name: Object/Map
+#### skill ####
+name: Typography
+#### skill ####
+name: Drawing loop
+#### skill ####
+name: For Loops
+#### skill ####
+name: Colors
+#### skill ####
+name: for of
+#### skill ####
+name: High Order Functions
+#### skill ####
+name: Table Data
+#### skill ####
+name: Conditional Construct
+#### skill ####
+name: Booleans
+#### skill ####
+name: Comparison Operators
+---
+ogImage: boxplot.png
