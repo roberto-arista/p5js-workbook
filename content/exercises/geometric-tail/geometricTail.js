@@ -1,12 +1,12 @@
-let cnv;
+let canvas;
 let shapeFunc;
 let slider;
 
 let side = 20;
 
 function setup() {
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
 
     sliderLabel = createElement('label', 'Shape Size:');
     sliderLabel.parent('ctrls');

@@ -1,12 +1,12 @@
-let cnv;
+let canvas;
 let button;
 
 let side = 250;
 let shapeFunc;
 
 function setup() {
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
 
     button = createButton('swap!');
     button.parent('ctrls');

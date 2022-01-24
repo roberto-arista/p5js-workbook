@@ -1,4 +1,4 @@
-let cnv;
+let canvas;
 const margin = 20;
 const elements = 5;
 
@@ -14,13 +14,13 @@ let horStep;
 let maxIndexesSum;
 
 const distanceInFrames = 64; // frames
-const rectPeriod = 100;   // frames
-const circlePeriod = 80;   // frames
+const rectPeriod = 100;      // frames
+const circlePeriod = 80;     // frames
 
 function setup() {
     // here goes the code executed just once
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
 
     // static settings
     ellipseMode(CENTER);

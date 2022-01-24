@@ -1,4 +1,4 @@
-let cnv;
+let canvas;
 
 const dotDiam = 60;
 
@@ -16,8 +16,8 @@ let areEdgesActive = false;
 
 function setup() {
     // here goes the code executed just once
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
 
     bgClr = color(200);
     background(bgClr);

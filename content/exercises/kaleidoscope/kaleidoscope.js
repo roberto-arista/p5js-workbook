@@ -1,10 +1,10 @@
-let cnv;
+let canvas;
 const radius = 8;
 let func;
 
 function setup() {
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
     func = ellipse;
     stroke(0);
     ellipseMode(CENTER);

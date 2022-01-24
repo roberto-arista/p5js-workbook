@@ -9,8 +9,6 @@
 from pathlib import Path
 from shutil import copytree, rmtree, copy, make_archive
 
-# --- Objects & Methods --- #
-
 # --- Constants --- #
 DONT_TOUCH = ['static', '.lektor', ]
 
@@ -30,5 +28,5 @@ if __name__ == '__main__':
         copy(emptySketch, eachScript)
 
     outputPath = root / 'assets' / 'static' / tempPath.name
-    make_archive(outputPath, 'zip', tempPath)
+    make_archive(str(outputPath), 'zip', tempPath)
     rmtree(tempPath)

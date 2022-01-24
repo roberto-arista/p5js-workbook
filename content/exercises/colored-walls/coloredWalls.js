@@ -1,12 +1,12 @@
-let cnv;
+let canvas;
 let color1;
 let color2;
 let bgSwitch = true;
 
 function setup() {
     // here goes the code executed just once
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
     noStroke();
     background(200);
 

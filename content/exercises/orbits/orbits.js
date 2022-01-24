@@ -1,4 +1,4 @@
-let cnv;
+let canvas;
 const margin = 40;
 const bigDotRadius = 10;
 const smallDotRadius = 3;
@@ -7,19 +7,19 @@ const grid = 15;
 function createOrbit(distance, angle, radius) {
     xx = cos(angle) * distance;
     yy = sin(angle) * distance;
-    ellipse(xx, yy, radius*2, radius*2)
+    ellipse(xx, yy, radius*2, radius*2);
 }
 
 function setup() {
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
     angleMode(DEGREES);
 }
 
 function draw() {
     background(255);
 
-    const step = (width-margin*2) / grid
+    const step = (width-margin*2) / grid;
     translate(margin + step/2, margin + step/2);
     for (let jj=0; jj < grid; jj++) {
         push();
@@ -29,7 +29,7 @@ function draw() {
             noFill();
 
             push();
-            translate(cos(frameCount+(ii+jj)*12)*4, sin(frameCount+(ii+jj)*12)*4)
+            translate(cos(frameCount+(ii+jj)*12)*4, sin(frameCount+(ii+jj)*12)*4);
             ellipse(0, 0, bigDotRadius*2, bigDotRadius*2);
 
             noStroke();

@@ -1,4 +1,4 @@
-let cnv;
+let canvas;
 let captionFont;
 let prevQuotas = [];
 let curveDetail = 2;
@@ -17,8 +17,8 @@ function preload() {
 
 function setup() {
     // here goes the code executed just once
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
     frameRate(24);
     createUI();
 }

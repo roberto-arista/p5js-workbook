@@ -1,4 +1,4 @@
-let cnv;
+let canvas;
 let pointsInput;
 let button;
 let points;
@@ -44,8 +44,8 @@ function createNumberInput(value, parentID, minValue, maxValue, callback, utilit
 }
 
 function setup() {
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
 
     const inputUtilityClasses = 'border border-black py-3 px-3 mt-2 mr-2 rounded';
     pointsInput = createNumberInput(pointsAmount, 'ctrls', 20, 1000,

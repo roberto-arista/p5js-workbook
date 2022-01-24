@@ -1,7 +1,7 @@
 function setup() {
     // here goes the code executed just once
-    let cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    let canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
     background(200);
     noStroke();
 }

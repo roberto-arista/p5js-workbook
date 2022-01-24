@@ -1,4 +1,4 @@
-let cnv;
+let canvas;
 let slider;
 let horSelect;
 let verSelect;
@@ -16,8 +16,8 @@ function preload() {
 }
 
 function setup() {
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
 
     verticalAlignment = BASELINE;
     horizontalAlignment = LEFT;

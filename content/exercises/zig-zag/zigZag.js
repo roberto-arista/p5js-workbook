@@ -1,10 +1,10 @@
-let cnv;
+let canvas;
 let slider;
 
 function setup() {
     // here goes the code executed just once
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
 
     slider = createSlider(1, width, 50);
     slider.parent('sketch-holder');

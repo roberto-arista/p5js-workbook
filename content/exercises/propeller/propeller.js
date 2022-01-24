@@ -1,11 +1,11 @@
-let cnv;
+let canvas;
 let angle = 0;
 let increment = 1;
 let isMoving = true;
 
 function setup() {
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
 
     motionButton = createButton('stop!');
     motionButton.parent('ctrls');

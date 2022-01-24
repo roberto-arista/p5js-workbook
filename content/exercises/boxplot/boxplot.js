@@ -1,4 +1,4 @@
-let cnv;
+let canvas;
 let table;
 let captionFont;
 
@@ -162,8 +162,8 @@ function preload() {
 
 function setup() {
   // <canvas></canvas>      this is for purgeCSS
-  cnv = createCanvas(600, 600);
-  cnv.parent('sketch-holder');
+  canvas = createCanvas(600, 600);
+  canvas.parent('sketch-holder');
 
   // ctrls
   header = table.columns;

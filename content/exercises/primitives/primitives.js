@@ -1,10 +1,10 @@
-let cnv;
+let canvas;
 
 let ellipseR = 100;
 
 function setup() {
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
 
     // diagonals
     line(0, 0, width, height);

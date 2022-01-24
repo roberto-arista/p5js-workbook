@@ -1,8 +1,8 @@
-let cnv;
+let canvas;
 
 function setup() {
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
 }
 
 function draw() {

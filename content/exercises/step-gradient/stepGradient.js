@@ -32,8 +32,8 @@ function createInputNumber(value, parentID, minValue, maxValue, callback) {
 }
 
 function setup() {
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
     noStroke();
 
     const container = createDiv();

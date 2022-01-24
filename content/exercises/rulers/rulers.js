@@ -1,4 +1,4 @@
-let cnv;
+let canvas;
 let slider1;
 let slider2;
 let slider3;
@@ -7,8 +7,8 @@ const overlap = 0;
 
 function setup() {
     // here goes the code executed just once
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
 
     slider1 = createSliderWithLabel('Top:', 1, 100, 5, 'sketch-holder');
     slider2 = createSliderWithLabel('Middle:', 1, 100, 10, 'sketch-holder');

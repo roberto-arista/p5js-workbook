@@ -1,4 +1,4 @@
-let cnv;
+let canvas;
 let xx, yy;
 let captionFont;
 
@@ -10,8 +10,8 @@ function preload() {
 }
 
 function setup() {
-    cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');
+    canvas = createCanvas(600, 600);
+    canvas.parent('sketch-holder');
 
     checkbox = createCheckbox('show coordinates', showCoordinates);
     checkbox.parent('ctrls');
