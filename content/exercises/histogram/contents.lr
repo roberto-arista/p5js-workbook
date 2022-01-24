@@ -1,9 +1,0 @@
-_model: exercise
----
-title: Histogram
----
-sort_key: 20
----
-jsScript: histogram.js
----
-_hidden: yes
