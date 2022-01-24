@@ -2,7 +2,7 @@ _model: exercise
 ---
 title: Rulers
 ---
-assignment: Divide the canvas vertically into three zones. Each zone should be covered with a line pattern. The step between each line should be editable through a slider inserted into the DOM just below the canvas. A different label for each slider would be a nice plus.
+assignment: Divide the canvas horizontally into three zones. Each zone should be covered with a line pattern. The step between each line should be editable through a slider inserted into the DOM just below the canvas. A different label for each slider would be a nice plus.
 ---
 sort_key: 10
 ---
