@@ -1,9 +1,5 @@
 [project]
-<<<<<<< HEAD
-name = p5js WorkBook
-=======
 name = p5.js WorkBook
->>>>>>> e0b3e309a04c32dce4bc9f91d9bd15a27ab37d2c
 output_path = build
 
 [packages]
